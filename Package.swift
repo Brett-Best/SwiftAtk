@@ -8,8 +8,8 @@ let package = Package(
         .library(name: "Atk", targets: ["Atk"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/CAtk.git", .branch("master")),
-        .package(url: "https://github.com/rhx/SwiftGObject.git", .branch("master"))
+        .package(url: "https://github.com/Brett-Best/CAtk.git", .branch("bb-pkg-dev")),
+        .package(url: "https://github.com/Brett-Best/SwiftGObject.git", .branch("bb-pkg-dev"))
     ],
     targets: [
         .target(name: "Atk", dependencies: ["GLibObject"]),
